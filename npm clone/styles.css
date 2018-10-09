@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.amazing button {
+  background-color: rgb(240 146 51);
+  color: white;
+  margin-top: 10px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: none;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 9px 25px;
+}
+.clearfix {
+  clear: both;
+}
+.top-header {
+  
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg); 
+  height: 650px;
+  padding-top: 0px;  
+}
+.header-search-bar {
+  
+  position: relative;
+  height: 40px;
+  padding: 20px 10px 50px 10px;
+  margin: 0;
+  color: white;
+}
+.header-search-bar .npm-logo {
+  height: 30px;
+  width: 65px;
+  padding-right: 5px;
+  padding-left: 0px;
+  padding-top: 1px;
+  float: left;
+}
+.header-search-bar .bear-logo {
+  height: 28px;
+  width: 33px;
+  padding-left: 5px;
+  padding-top: 0px;
+  float: right;
+}
+#searchbar {
+  width: 1040px;
+  height: 25px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(31, 82, 111);
+  padding-right: 45px;
+}
+.header-search-bar a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+.amazing {
+  color: white;
+  width: 450px;
+  padding-left: 200px;
+  padding-top: 50px; 
+  margin-left: 50px; 
+}
+.amazing h1{
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.amazing p{
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.collab-image {
+  float: left;
+  width: 30%;
+  margin: 0 auto;
+  padding: 10% 10% 20% 15%;
+}
+#collaboration {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 550px;
+  margin: 0 auto;
+}
+.collab-content {
+  font-size: 1.25em;
+  padding-right: 200px;
+  padding-top: 150px;
+  text-align: left;
+}
+.collab-content h2{
+  padding-bottom: 30px;
+  font-size: 1.5em;
+  }
+.collab-content button{
+  background-color: rgb(203, 56, 55);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: none;
+  box-sizing: border-box;
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 12px 20px;
+  
+  float: left;
+}
+.about-orgs {
+  text-decoration: none;
+  color: white;
+}
+#what-is-npm {background: url(https://static.npmjs.com/images/npm-is-BOXES.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding-top: 50px;
+  margin: 0%;
+  
+}
+.what-is-npm-content {
+  padding: 0px 40px 100px 200px;
+  color: white;
+  margin-top: 125px;
+  text-align: left;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.what-is-npm-content h2{
+  font-size: 2em;
+}
+.what-is-npm-content p{
+  font-size: 1.2em;
+}
+.what-is-npm-content button{
+  background-color:rgb(49, 68, 88);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: none;
+  box-sizing: border-box;
+  font-size: 1em;
+  vertical-align: middle;
+  padding: 10px 40px;
+  float: left;
+}
+.building-header, article   {
+  text-align: center;
+  height: 100px;
+}
+.building-header h2{
+  color: rgb(83, 88, 98);
+  text-decoration: none;
+
+}
+.building-header p{
+  color: rgb(135, 145, 156);
+}
+.building-content-images {
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 1200px;
+}
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+.building-content-images a{
+  color: rgb(208, 74, 73);
+}
